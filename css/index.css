@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,700&family=Open+Sans:wght@300;400;800&family=Overpass:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'open sans';
+}
+
+body {
+    background: url(../img/background.png);
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.container-logo i {
+    color: #088e49;
+    font-size: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #088e49;
+
+}
+
+.busqueda {
+    background: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.busqueda i {
+    margin-left: 10px;
+}
+
+.busqueda input {
+    border: none;
+    outline: none;
+}
+
+.informacion {
+    margin-top: 50px;
+}
+
+.fila {
+    display: flex;
+}
+
+.fila .col {
+    width: 33%;
+}
+
+.fila .col h2 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.fila .col p {
+    color: #696969;
+    max-width: 300px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.fila .col span {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.fila .col button {
+    background-color: #1f2131;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fila .col button i {
+    color: #ff7e32;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.fila .col button:hover {
+    font-size: 14px;
+}
+
+.circulo-principal {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background: #f88965;
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+}
+
+.circulo-principal img {
+    height: 100%;
+    position: relative;
+    bottom: 30px;
+    transition: .5s;
+}
+
+.circulo-principal:hover {
+    transform: scale(.9);
+    background-color: #1f2131;
+}
+
+.circulo-principal img:hover {
+    transform: scale(1.2);
+}
+
+.ingredientes {
+    padding-left: 50px;
+}
